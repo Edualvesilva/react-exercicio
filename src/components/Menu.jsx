@@ -2,21 +2,20 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
   const StyledMenu = styled.nav`
-  display: flex;
-  justify-content: space-around;
+    display: flex;
   flex-direction: column;
-  padding: 1rem;
   background-color: #bd9f9f;
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
+  padding: 10px; /* Add some padding for spacing */
+  border-right: 2px solid #333; /* Add a border on the right side */
 
-  hr {
-    width: 50%;
-    border: none;
-    height: 4px;
-    margin: 8px auto;
+  a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px; /* Add margin to create spacing between items */
   }
 `;
 function Menu() {

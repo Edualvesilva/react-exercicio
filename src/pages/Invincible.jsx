@@ -9,7 +9,7 @@ const ContentContainer = styled.div`
 `;
 
 function Invincible() {
-  return (<PageContainer><Menu/><ContentContainer><h2>Invincible</h2></ContentContainer></PageContainer>
+  return (<PageContainer><ContentContainer><h2>Invincible</h2></ContentContainer></PageContainer>
   )
 }
 

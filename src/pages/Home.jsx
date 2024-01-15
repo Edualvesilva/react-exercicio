@@ -11,7 +11,6 @@ const ContentContainer = styled.div`
 function Home() {
   return (
   <PageContainer>
-  <Menu />
   <ContentContainer>
   <Heroes />
   </ContentContainer>
