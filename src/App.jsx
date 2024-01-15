@@ -4,6 +4,7 @@ import Invincible from "./pages/Invincible";
 import Container from "./components/Container";
 import Header from "./components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <>
@@ -11,7 +12,9 @@ function App() {
         <Container>
           <Header />
           <Routes>
-            <Route Component={Home} exact path="/" />
+            <Route  path="/" element={<Home />}/>
+            <Route path="/spiderman" element={<Spiderman />}/>
+            <Route path="/invincible" element={<Invincible />}/>
           </Routes>
         </Container>
       </BrowserRouter>

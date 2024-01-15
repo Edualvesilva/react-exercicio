@@ -9,3 +9,4 @@ function Webhead() {
     </div>
   );
 }
+export default Webhead

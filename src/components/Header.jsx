@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import Menu from "./Menu";
 
 const StyledHeader = styled.header`
-  background-color: black;
+  background-color: #fc0000;
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
@@ -21,7 +20,6 @@ function Header() {
     <StyledHeader>
       <h1>Welcome to the Site</h1>
       <hr />
-      <Menu />
     </StyledHeader>
   );
 }
